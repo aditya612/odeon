@@ -3,6 +3,8 @@ import 'package:odeon/screen_recoder/screen_recoder_controller.dart';
 import 'package:styled_widget/styled_widget.dart';
 import 'package:sized_context/sized_context.dart';
 
+import 'utils.dart';
+
 class ScreenRecoderView extends StatefulWidget {
   const ScreenRecoderView({Key? key}) : super(key: key);
 
@@ -71,7 +73,7 @@ class _ScreenRecoderViewState extends State<ScreenRecoderView> {
                                 ? Text(_screenRecoderController.buffer
                                         .toString())
                                     .scrollable()
-                                : const Text('Waiting for input'),
+                                : const Text('Wating for input'),
                       );
 
                       // const Text('sd')
